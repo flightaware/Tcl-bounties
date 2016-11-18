@@ -1,18 +1,35 @@
 # Tcl-bounties
-Bounty program for improvements to Tcl and certain Tcl packages
+Bounty program for improvements to Tcl and certain Tcl packages.
 
-This page outlines some changes or improvements that we want in Tcl and may be willing to pay somebody to implement.
+FlightAware is offewring a number of bounties for various enhancements, fixes, etc, for Tcl and/or Tcl extensions.
+
+We are completely serious.
+
+Bounties we are offering run to tens of thousands of dollars.
+
+## Upgrade the scotty extension
+
+* $1000 to update Scotty to modern Tcl Extension Architecture (TEA) build standards, compilling properly under FreeBSD, Debian and macOS, with stub support.
+
+* $1000 to fix bugs in Scotty's UDP stuff -- "configure/cget" of config vars working and configured host and port to be used if not specified in "send".
 
 ## Support for SO_REUSEPORT on server sockets
 
 * This would allow multiple programs to open the same port from a server socket.
-* It's pretty easy.
+* It would be a switch to the socket command.
+* It looks pretty easy.
 * $2500
 
+## tclreadline improvements
+
+* $2500 to make tclreadline able to recognize iTcl and tclOO objects and do tab completion for method names, tab completion for variables if indicated by the present of cget or configure
+
 ## Support for epoll()/kqueue() to replace select() in socket handling
-* This could vastly reduce the overhead for Tcl programs that have thousands of sockets open.
-* There was a google summer of code project to do this that never got integrated and might not have been completed but could be a starting point.
+
+* This could considerably reduce the overhead for Tcl programs that have thousands of sockets open.
+* There was a Google Summer of Code project to do this that never got integrated and might not have been completed but could be a starting point.
 * $10,000
+
 ## Clean up of tcltls
 * support all TLS versions.
 * fix hangs in protocol negotiation.
@@ -24,13 +41,17 @@ This page outlines some changes or improvements that we want in Tcl and may be w
 ## Call-by-name syntactic sugar for proc definitions that would obviate most uses of upvar
 * something like... proc find_flightplan_from_position {*flightplan *position}  {}
 * ...that would replace proc find_flightplan_from_position {_flightplan position} ... upvar $flightplan flightplan $_position position, etc
+* (To be implemented as a first class thing in the Tcl code, not some proc that generates a proc or something lame like that.)
 * $10,000
 
 ## Speed up clock format and clock scan
 * 2X for $5,000
 * 4X for $10,000
 * 10X for $20,000
-* Revive the Tcl Pro debugger
+
+## Revive the Tcl Pro debugger
+There was a Tcl Pro package from Scriptics many years ago that was open sourced.  Included was a source-level debugger.
+* Get the source-level debugger working again with Tcl 8.6 and accepted into the Tcl core
 * $20,000
 
 ## Make TclX's signal trap handlers safe to use with threaded Tcl
@@ -38,7 +59,9 @@ This page outlines some changes or improvements that we want in Tcl and may be w
 * this will need Tcl core changes to support it
 * $5,000
 
-## Make TclX's profiler work properly with Tcl 8.6 (currently it crashes Tcl)
+## Make TclX's profiler work properly with Tcl 8.6
+* currently it crashes Tcl
+* this may need Tcl core changes to support it
 * $2,500
 
 ## Stop Tcl from eating child process exit status gratuitously
@@ -47,24 +70,39 @@ This page outlines some changes or improvements that we want in Tcl and may be w
 * this makes any non-trivial communication scheme with subprocesses painful (see piaware's fa_sudo to see the lengths you must go to, and then everything must use that and avoid the core pipe functionality)
 * $5,000
 
-## Look through TIP proposals and see if there are any we want to push on
-* A reasonable C API for enumerating an array
+## A reasonable C API for enumerating an array
+* (without using any Tcl code, that is, no invoking Tcl_Eval or equivalent)
 * $5,000
 
-## "after -at" or some other way to set a point in time when something is to occur rather than a delay time
+## "after -at"
+* basically some other way to set a point in time when something is to occur rather than a delay time
+* we're not married to it being "after -at"
 * $2,500
 
-## Default values for arrays "array default arrayName value", causes that value to be returned any time an attempt is made to access an element of the array that isn't present.
+## array default arrayName value
+* Default values for arrays, "array default arrayName value", causes that value to be returned any time an attempt is made to access an element of the array that isn't present.
 * $2,500
 
 ## "array foreach"
+* this adds a new suboption to the array command, "array foreach varName {code}"
 * $2,500
 
-## A more legit way to get a list of all the source files loaded by a package.
+## Tcl package introspection improvements
+* A more legit way to get a list of all the source files loaded by a package.
+* "package files" or something
 * $2,500
 
 ## A first class, high-performance, non-hackish way to do named parameters
+* Invoke a proc by naming the variables and their values rather than doing it positionally.
+* Needs to work against existing procs without changing how procs are defined.
+* Needs to support default values as specified in proc definitions.
+* must be first class, i.e. can't be a proc that wraps procs with a bunch of scaffolding.
 * $20,000
+
+## Tcl runtime performance improvements
+* $20,000 for Tcl to run 2X faster than Tcl 8.6 for a benchmark program TBD.
+* $100,000 for Tcl to run 10X faster than Tcl 8.6.
+* (We need help with the benchmark.)
 
 # Rules for Tcl bounties
 * All code must be released under the BSD license.
@@ -74,5 +112,6 @@ This page outlines some changes or improvements that we want in Tcl and may be w
 * If you succeed in fulfilling the conditions for receiving a bounty as a team then the team has to apportion the bounty among themselves; we are not getting involved in any disputes over who deserves what.
 * We request that people or teams publicly announce their intention to pursue a bounty to reduce the likelihood of wasted work, hard feelings, etc.
  * That being said we understand that some people or teams may announce and not succeed, so the fact that someone has announced they are pursuing a bounty does not prevent others from pursuing it as well.
-
+* If due to the nature of their employment someone is not allowed to accept a bounty or their share of a bounty, they can assign their share to others on their team, to a charity of their choosing, or to the Tcl Community Association.
+* FlightAware employees can participate but not double-dip; i.e. don't work on it at work.
 
