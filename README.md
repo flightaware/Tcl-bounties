@@ -13,6 +13,7 @@ This page outlines some changes or improvements that we want in Tcl and may be w
 * This could vastly reduce the overhead for Tcl programs that have thousands of sockets open.
 * There was a google summer of code project to do this that never got integrated and might not have been completed but could be a starting point.
 * $10,000
+
 ## Clean up of tcltls
 * support all TLS versions.
 * fix hangs in protocol negotiation.
