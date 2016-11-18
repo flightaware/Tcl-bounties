@@ -114,4 +114,4 @@ There was a Tcl Pro package from Scriptics many years ago that was open sourced.
  * That being said we understand that some people or teams may announce and not succeed, so the fact that someone has announced they are pursuing a bounty does not prevent others from pursuing it as well.
 * If due to the nature of their employment someone is not allowed to accept a bounty or their share of a bounty, they can assign their share to others on their team, to a charity of their choosing, or to the Tcl Community Association.
 * FlightAware employees can participate but not double-dip; i.e. don't work on it at work.
-
+* When appropriate, the [TIP](http://wiki.tcl.tk/983) process may need to be followed for changes that impact the public interfaces of Tcl core.
