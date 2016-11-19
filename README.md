@@ -1,9 +1,7 @@
 # Tcl-bounties
 Bounty program for improvements to Tcl and certain Tcl packages.
 
-FlightAware is offewring a number of bounties for various enhancements, fixes, etc, for Tcl and/or Tcl extensions.
-
-We are completely serious.
+FlightAware is offering a number of bounties for various enhancements, fixes, etc, for Tcl and/or Tcl extensions.
 
 Bounties we are offering run to tens of thousands of dollars.
 
