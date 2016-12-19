@@ -22,6 +22,8 @@ Bounties we are offering run to tens of thousands of dollars.
 
 * $2500 to make tclreadline able to recognize iTcl and tclOO objects and do tab completion for method names, tab completion for variables if indicated by the present of cget or configure
 
+Status: Bounty conditions met by dbohdan, pull request https://github.com/flightaware/tclreadline/pull/1.  *Payment Pending*
+
 ## Support for epoll()/kqueue() to replace select() in socket handling
 
 * This could considerably reduce the overhead for Tcl programs that have thousands of sockets open.
