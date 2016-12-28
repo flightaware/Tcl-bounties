@@ -30,13 +30,13 @@ Status: Bounty conditions met by dbohdan, pull request https://github.com/flight
 * There was a Google Summer of Code project to do this that never got integrated and might not have been completed but could be a starting point.
 * $10,000
 
-## Clean up of tcltls
-~~* support all TLS versions.
-* fix hangs in protocol negotiation.
-* fix background errors to provide an error message.
-* test and get it working with LibreSSL -- drop SSLv2, SSLv3, etc.
-* plus light maintenance for a year
-* $5,000~~
+## ~~Clean up of tcltls~~
+* ~~support all TLS versions.~~
+* ~~fix hangs in protocol negotiation.~~
+* ~~fix background errors to provide an error message.~~
+* ~~test and get it working with LibreSSL -- drop SSLv2, SSLv3, etc.~~
+* ~~plus light maintenance for a year~~
+* ~~$5,000~~
 
 Status: Bounty conditions met by rkeene.  *PAYMENT PENDING*
 
