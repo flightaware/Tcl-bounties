@@ -38,7 +38,7 @@ Status: Bounty conditions met by dbohdan, pull request https://github.com/flight
 * ~~plus light maintenance for a year~~
 * ~~$5,000~~
 
-Status: Bounty conditions met by rkeene.  *PAYMENT PENDING*
+Status: Bounty conditions met by rkeene.  **PAID**
 
 ## Call-by-name syntactic sugar for proc definitions that would obviate most uses of upvar
 * something like... proc find_flightplan_from_position {*flightplan *position}  {}
