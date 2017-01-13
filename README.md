@@ -18,6 +18,8 @@ Bounties we are offering run to tens of thousands of dollars.
 * It looks pretty easy.
 * $2500
 
+Status:  Bounty conditions met by lemonboy... **PAYMENT PENDING**
+
 ## ~~tclreadline improvements~~
 
 ~~* $2500 to make tclreadline able to recognize iTcl and tclOO objects and do tab completion for method names, tab completion for variables if indicated by the present of cget or configure~~
