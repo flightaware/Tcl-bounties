@@ -96,6 +96,8 @@ There was a Tcl Pro package from Scriptics many years ago that was open sourced.
 * "package files" or something
 * $2,500
 
+Status: bounty conditions met by nijtmans
+
 ## A first class, high-performance, non-hackish way to do named parameters
 * Invoke a proc by naming the variables and their values rather than doing it positionally.
 * Needs to work against existing procs without changing how procs are defined.
