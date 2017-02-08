@@ -91,10 +91,10 @@ There was a Tcl Pro package from Scriptics many years ago that was open sourced.
 * this adds a new suboption to the array command, "array foreach varName {code}"
 * $2,500
 
-## Tcl package introspection improvements
-* A more legit way to get a list of all the source files loaded by a package.
-* "package files" or something
-* $2,500
+## ~~Tcl package introspection improvements~~
+* ~~A more legit way to get a list of all the source files loaded by a package.~~
+* ~~"package files" or something~~
+* ~~$2,500~~
 
 Status: bounty conditions met by nijtmans
 
