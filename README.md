@@ -91,14 +91,17 @@ There was a Tcl Pro package from Scriptics many years ago that was open sourced.
 * this adds a new suboption to the array command, "array foreach varName {code}"
 * $2,500
 
-## Tcl package introspection improvements
-* A more legit way to get a list of all the source files loaded by a package.
-* "package files" or something
-* $2,500
+## ~~Tcl package introspection improvements~~
+* ~~A more legit way to get a list of all the source files loaded by a package.~~
+* ~~"package files" or something~~
+* ~~$2,500~~
+
+Status: bounty conditions met by nijtmans
 
 ## A first class, high-performance, non-hackish way to do named parameters
 * Invoke a proc by naming the variables and their values rather than doing it positionally.
-* Needs to work against existing procs without changing how procs are defined.
+* ~~Needs to work against existing procs without changing how procs are defined.~~
+* Needs to be natural and "native Tcl" like for the caller.
 * Needs to support default values as specified in proc definitions.
 * must be first class, i.e. can't be a proc that wraps procs with a bunch of scaffolding.
 * $20,000
