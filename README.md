@@ -11,7 +11,7 @@ Bounties we are offering run to tens of thousands of dollars.
 
 * $1000 to fix bugs in Scotty's UDP stuff -- "configure/cget" of config vars working and configured host and port to be used if not specified in "send".
 
-## Support for SO_REUSEPORT on server sockets
+## ~~Support for SO_REUSEPORT on server sockets~~
 
 ~~* This would allow multiple programs to open the same port from a server socket.~~
 ~~* It would be a switch to the socket command.~~
