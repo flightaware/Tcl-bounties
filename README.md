@@ -13,12 +13,12 @@ Bounties we are offering run to tens of thousands of dollars.
 
 ## Support for SO_REUSEPORT on server sockets
 
-* This would allow multiple programs to open the same port from a server socket.
-* It would be a switch to the socket command.
-* It looks pretty easy.
-* $2500
+~~* This would allow multiple programs to open the same port from a server socket.~~
+~~* It would be a switch to the socket command.~~
+~~* It looks pretty easy.~~
+~~* $2500~~
 
-Status:  Bounty conditions met by lemonboy... **PAYMENT PENDING**
+Status:  Bounty conditions met by lemonboy... **PAID**
 
 ## ~~tclreadline improvements~~
 
