@@ -7,9 +7,13 @@ Bounties we are offering run to tens of thousands of dollars.
 
 ## Upgrade the scotty extension
 
-* $1000 to update Scotty to modern Tcl Extension Architecture (TEA) build standards, compilling properly under FreeBSD, Debian and macOS, with stub support.
+~~* $1000 to update Scotty to modern Tcl Extension Architecture (TEA) build standards, compilling properly under FreeBSD, Debian and macOS, with stub support.~~
 
-* $1000 to fix bugs in Scotty's UDP stuff -- "configure/cget" of config vars working and configured host and port to be used if not specified in "send".
+Status: bounty conditions met by @jorge-leon
+
+~~* $1000 to fix bugs in Scotty's UDP stuff -- "configure/cget" of config vars working and configured host and port to be used if not specified in "send".~~
+
+Status: bounty conditions met by @jorge-leon
 
 ## ~~Support for SO_REUSEPORT on server sockets~~
 
