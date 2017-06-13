@@ -61,10 +61,12 @@ Status: Part of http://www.tcl.tk/cgi-bin/tct/tip/457.html
 * 4X for $10,000
 * 10X for $20,000
 
-## Revive the Tcl Pro debugger
-There was a Tcl Pro package from Scriptics many years ago that was open sourced.  Included was a source-level debugger.
+## ~~Revive the Tcl Pro debugger~~
+~~There was a Tcl Pro package from Scriptics many years ago that was open sourced.  Included was a source-level debugger.
 * Get the source-level debugger working again with Tcl 8.6 and accepted into the Tcl core
-* $20,000
+* $20,000~~
+
+Status: Completed by blacksqrl, *PAID*
 
 ## Make TclX's signal trap handlers safe to use with threaded Tcl
 * currently they are prone to deadlock as the signal can be delivered to the select thread and this will self-deadlock if it happens at the wrong time
