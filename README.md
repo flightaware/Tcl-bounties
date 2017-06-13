@@ -54,6 +54,8 @@ Status: Bounty conditions met by rkeene.  **PAID**
 * (To be implemented as a first class thing in the Tcl code, not some proc that generates a proc or something lame like that.)
 * $10,000
 
+Status: Part of http://www.tcl.tk/cgi-bin/tct/tip/457.html
+
 ## Speed up clock format and clock scan
 * 2X for $5,000
 * 4X for $10,000
@@ -111,6 +113,8 @@ Status: bounty conditions met by nijtmans
 * Needs to support default values as specified in proc definitions.
 * must be first class, i.e. can't be a proc that wraps procs with a bunch of scaffolding.
 * $20,000
+
+Status: Part of http://www.tcl.tk/cgi-bin/tct/tip/457.html
 
 ## Tcl runtime performance improvements
 * $20,000 for Tcl to run 2X faster than Tcl 8.6 for a benchmark program TBD.
