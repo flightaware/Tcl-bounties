@@ -5,36 +5,36 @@ FlightAware is offering a number of bounties for various enhancements, fixes, et
 
 Bounties we are offering run to tens of thousands of dollars.
 
-## Upgrade the scotty extension
+## ~~Upgrade the scotty extension~~
 
-~~* $1000 to update Scotty to modern Tcl Extension Architecture (TEA) build standards, compilling properly under FreeBSD, Debian and macOS, with stub support.~~
+* ~~$1000 to update Scotty to modern Tcl Extension Architecture (TEA) build standards, compilling properly under FreeBSD, Debian and macOS, with stub support.~~
 
-Status: bounty conditions met by @jorge-leon
+Status: bounty conditions met by @jorge-leon **PAID**
 
-~~* $1000 to fix bugs in Scotty's UDP stuff -- "configure/cget" of config vars working and configured host and port to be used if not specified in "send".~~
+* ~~$1000 to fix bugs in Scotty's UDP stuff -- "configure/cget" of config vars working and configured host and port to be used if not specified in "send".~~
 
-Status: bounty conditions met by @jorge-leon
+Status: bounty conditions met by @jorge-leon **PAID**
 
 ## ~~Support for SO_REUSEPORT on server sockets~~
 
-~~* This would allow multiple programs to open the same port from a server socket.~~
-~~* It would be a switch to the socket command.~~
-~~* It looks pretty easy.~~
-~~* $2500~~
+* ~~This would allow multiple programs to open the same port from a server socket.~~
+* ~~It would be a switch to the socket command.~~
+* ~~It looks pretty easy.~~
+* ~~$2500~~
 
 Status:  Bounty conditions met by lemonboy... **PAID**
 
 ## ~~tclreadline improvements~~
 
-~~* $2500 to make tclreadline able to recognize iTcl and tclOO objects and do tab completion for method names, tab completion for variables if indicated by the present of cget or configure~~
+* ~~$2500 to make tclreadline able to recognize iTcl and tclOO objects and do tab completion for method names, tab completion for variables if indicated by the present of cget or configure~~
 
-Status: Bounty conditions met by dbohdan, pull request https://github.com/flightaware/tclreadline/pull/1.  *PAID*
+Status: Bounty conditions met by dbohdan, pull request https://github.com/flightaware/tclreadline/pull/1.  **PAID**
 
 ## ~~Support for epoll()/kqueue() to replace select() in socket handling~~
 
-~~* This could considerably reduce the overhead for Tcl programs that have thousands of sockets open.~~
-~~* There was a Google Summer of Code project to do this that never got integrated and might not have been completed but could be a starting point.~~
-~~* $10,000~~
+* ~~This could considerably reduce the overhead for Tcl programs that have thousands of sockets open.~~
+* ~~There was a Google Summer of Code project to do this that never got integrated and might not have been completed but could be a starting point.~~
+* ~~$10,000~~
 
 Status: Bounty conditions met by lalbornoz, implementation in trunk.
 
@@ -63,10 +63,10 @@ Status: Part of http://www.tcl.tk/cgi-bin/tct/tip/457.html
 
 ## ~~Revive the Tcl Pro debugger~~
 ~~There was a Tcl Pro package from Scriptics many years ago that was open sourced.  Included was a source-level debugger.~~
-~~* Get the source-level debugger working again with Tcl 8.6 and accepted into the Tcl core~~
-~~* $20,000~~
+* ~~Get the source-level debugger working again with Tcl 8.6 and accepted into the Tcl core~~
+* ~~$20,000~~
 
-Status: Completed by blacksqrl, *PAID*
+Status: Completed by blacksqrl, **PAID**
 
 ## Make TclX's signal trap handlers safe to use with threaded Tcl
 * currently they are prone to deadlock as the signal can be delivered to the select thread and this will self-deadlock if it happens at the wrong time
