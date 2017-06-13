@@ -30,11 +30,13 @@ Status:  Bounty conditions met by lemonboy... **PAID**
 
 Status: Bounty conditions met by dbohdan, pull request https://github.com/flightaware/tclreadline/pull/1.  *PAID*
 
-## Support for epoll()/kqueue() to replace select() in socket handling
+## ~~Support for epoll()/kqueue() to replace select() in socket handling~~
 
-* This could considerably reduce the overhead for Tcl programs that have thousands of sockets open.
-* There was a Google Summer of Code project to do this that never got integrated and might not have been completed but could be a starting point.
-* $10,000
+~~* This could considerably reduce the overhead for Tcl programs that have thousands of sockets open.~~
+~~* There was a Google Summer of Code project to do this that never got integrated and might not have been completed but could be a starting point.~~
+~~* $10,000~~
+
+Status: Bounty conditions met by lalbornoz, implementation in trunk.
 
 ## ~~Clean up of tcltls~~
 * ~~support all TLS versions.~~
