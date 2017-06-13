@@ -62,9 +62,9 @@ Status: Part of http://www.tcl.tk/cgi-bin/tct/tip/457.html
 * 10X for $20,000
 
 ## ~~Revive the Tcl Pro debugger~~
-~~There was a Tcl Pro package from Scriptics many years ago that was open sourced.  Included was a source-level debugger.
-* Get the source-level debugger working again with Tcl 8.6 and accepted into the Tcl core
-* $20,000~~
+~~There was a Tcl Pro package from Scriptics many years ago that was open sourced.  Included was a source-level debugger.~~
+~~* Get the source-level debugger working again with Tcl 8.6 and accepted into the Tcl core~~
+~~* $20,000~~
 
 Status: Completed by blacksqrl, *PAID*
 
