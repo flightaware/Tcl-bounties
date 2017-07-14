@@ -36,7 +36,7 @@ Status: Bounty conditions met by dbohdan, pull request https://github.com/flight
 * ~~There was a Google Summer of Code project to do this that never got integrated and might not have been completed but could be a starting point.~~
 * ~~$10,000~~
 
-Status: Bounty conditions met by lalbornoz, implementation in trunk.
+Status: Bounty conditions met by lalbornoz, implementation in trunk. **PAID**
 
 ## ~~Clean up of tcltls~~
 * ~~support all TLS versions.~~
