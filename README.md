@@ -78,11 +78,13 @@ Status: Completed by blacksqrl, **PAID**
 * this may need Tcl core changes to support it
 * $2,500
 
-## Stop Tcl from eating child process exit status gratuitously
-* currently if you want to retrieve child status for subprocesses yourself asynchronously, there are a bunch of things you must avoid, including "open |foo" even if it's a completely unrelated child
-* Tcl core should either not call waitpid for children it is not directly managing, or it should have a mechanism for preserving the return statuses it consumes via waitpid so the app can retrieve them when needed
-* this makes any non-trivial communication scheme with subprocesses painful (see piaware's fa_sudo to see the lengths you must go to, and then everything must use that and avoid the core pipe functionality)
-* $5,000
+## ~~Stop Tcl from eating child process exit status gratuitously~~
+* ~~currently if you want to retrieve child status for subprocesses yourself asynchronously, there are a bunch of things you must avoid, including "open |foo" even if it's a completely unrelated child~~
+* ~~Tcl core should either not call waitpid for children it is not directly managing, or it should have a mechanism for preserving the return statuses it consumes via waitpid so the app can retrieve them when needed~~
+* ~~this makes any non-trivial communication scheme with subprocesses painful (see piaware's fa_sudo to see the lengths you must go to, and then everything must use that and avoid the core pipe functionality)~~
+* ~~$5,000~~
+
+Status: Integrated into core, thank you Frédéric Bonnet.
 
 ## A reasonable C API for enumerating an array
 * (without using any Tcl code, that is, no invoking Tcl_Eval or equivalent)
@@ -97,9 +99,11 @@ Status: Completed by blacksqrl, **PAID**
 * Default values for arrays, "array default arrayName value", causes that value to be returned any time an attempt is made to access an element of the array that isn't present.
 * $2,500
 
-## "array foreach"
-* this adds a new suboption to the array command, "array foreach varName {code}"
-* $2,500
+## ~~"array foreach"~~
+* ~~this adds a new suboption to the array command, "array foreach varName {code}"~~
+* ~~$2,500~~
+
+Status: Bounty conditions met by Brad Lanam, paid.
 
 ## ~~Tcl package introspection improvements~~
 * ~~A more legit way to get a list of all the source files loaded by a package.~~
