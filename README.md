@@ -56,10 +56,12 @@ Status: Bounty conditions met by rkeene.  **PAID**
 
 Status: Part of http://www.tcl.tk/cgi-bin/tct/tip/457.html
 
-## Speed up clock format and clock scan
+## ~~Speed up clock format and clock scan~~
 * 2X for $5,000
 * 4X for $10,000
 * 10X for $20,000
+
+Complete by @sebres, waiting on core team to pick up. **PARTIALLY PAID**
 
 ## ~~Revive the Tcl Pro debugger~~
 ~~There was a Tcl Pro package from Scriptics many years ago that was open sourced.  Included was a source-level debugger.~~
