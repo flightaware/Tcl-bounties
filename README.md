@@ -114,15 +114,9 @@ Status: Bounty conditions met by Brad Lanam, paid.
 
 Status: bounty conditions met by nijtmans
 
-## A first class, high-performance, non-hackish way to do named parameters
-* Invoke a proc by naming the variables and their values rather than doing it positionally.
-* ~~Needs to work against existing procs without changing how procs are defined.~~
-* Needs to be natural and "native Tcl" like for the caller.
-* Needs to support default values as specified in proc definitions.
-* must be first class, i.e. can't be a proc that wraps procs with a bunch of scaffolding.
-* $20,000
+## ~~Named Parameters~~
 
-Status: Part of http://www.tcl.tk/cgi-bin/tct/tip/457.html
+Status: No longer part of the program.
 
 ## Tcl runtime performance improvements
 * $20,000 for Tcl to run 2X faster than Tcl 8.6 for a benchmark program TBD.
