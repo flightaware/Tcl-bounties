@@ -75,10 +75,12 @@ Status: Completed by blacksqrl, **PAID**
 * this will need Tcl core changes to support it
 * $5,000
 
-## Make TclX's profiler work properly with Tcl 8.6
-* currently it crashes Tcl
-* this may need Tcl core changes to support it
-* $2,500
+~~## Make TclX's profiler work properly with Tcl 8.6~~
+* ~~currently it crashes Tcl~~
+* ~~this may need Tcl core changes to support it~~
+* ~~$2,500~~
+
+Status: complete by Rami Khaldi.
 
 ## ~~Stop Tcl from eating child process exit status gratuitously~~
 * ~~currently if you want to retrieve child status for subprocesses yourself asynchronously, there are a bunch of things you must avoid, including "open |foo" even if it's a completely unrelated child~~
