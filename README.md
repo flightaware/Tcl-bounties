@@ -1,11 +1,11 @@
+**Due to the impact of the coronavirus, FlightAware's Tcl Bounty program is temporarily on hold until the business climate has stabilized.**
+
 # Tcl-bounties
 Bounty program for improvements to Tcl and certain Tcl packages.
 
-~~FlightAware is offering a number of bounties for various enhancements, fixes, etc, for Tcl and/or Tcl extensions.~~
+FlightAware is offering a number of bounties for various enhancements, fixes, etc, for Tcl and/or Tcl extensions.
 
-~~Bounties we are offering run to tens of thousands of dollars.~~
-
-**Due to the impact of the coronavirus, FlightAware's Tcl Bounty program is temporarily on hold until the business climate has stabilized.**
+Bounties we are offering run to tens of thousands of dollars.
 
 ## ~~Upgrade the scotty extension~~
 
